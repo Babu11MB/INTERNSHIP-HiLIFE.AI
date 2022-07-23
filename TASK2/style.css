@@ -1,0 +1,17 @@
+/* universel selecotr*/
+*{
+    background-color: aquamarine;
+}
+/*pseudo element selecotr*/
+p::first-line{
+    font-size: 20px;
+    text-transform: capitalize;
+    text-align: center;
+/* pesudo class selecotr*/
+}
+.pcs:hover{
+    color: black;
+    text-align: center;
+    text-transform: uppercase;
+}
+

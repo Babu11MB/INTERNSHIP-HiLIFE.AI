@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DoM Methods</title>
+</head>
+<body>
+    <p id="DoM"></p>
+    <script>
+        var say = "hi typed by babu";
+        document.getElementById("DoM").innerHTML = say;
+        //tag creating
+
+         var element = document.createElement('p');
+         element.innerHTML = 'Tag Creating in DoM Method';
+         element.style.color = "blue";
+         element.style.fontSize= "100px";
+         document.body.append(element);
+
+         //h1 Tag
+         var e = document.createElement('h1');
+         e.innerText = 'document object model';
+         e.style.color = "red";
+         document.body.append(e);
+
+         //address Tag
+        var add = document.createElement('address');
+        add.innerHTML = "Name: mohanbabu   ph: 6398524712";
+        add.style.color ="green";
+        document.body.append(add);
+
+        //span Tag
+        var span = document.createElement('span');
+        span.innerHTML = "i am using span Tag";
+        span.style.color ="yellow";
+        span.style.backgroundColor ="lightgreen";
+        span.style.fontSize = "80px";
+        document.body.append(span);
+
+        //div Tag
+        var div = document.createElement('div');
+        div.innerHTML = "i am using span Tag";
+        div.style.color ="red";
+        div.style.backgroundColor ="blue";
+        div.style.fontSize = "80px";
+        document.body.append(div);
+
+    </script>
+</body>
+</html>

@@ -1,0 +1,12 @@
+div{
+    display: inline-table;
+    color: blue;
+    background-color: gold;
+    
+}
+
+span{
+    display: block;
+    color: blue;
+    background-color: chartreuse;
+}

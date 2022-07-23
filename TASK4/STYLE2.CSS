@@ -1,0 +1,62 @@
+.animat{
+    display: inline;
+    color: black;
+    font-size: 30px;
+    width: 500px;
+    animation-name: demo;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-direction: right;
+}
+@keyframes demo{
+19%{
+    background-color: aqua;
+}
+19%{
+    background-color: blue;
+}
+20%{
+    background-color: brown;
+}
+20%{
+    background-color: rgb(61, 219, 30);
+}
+20%{
+    background-color: yellow;
+}
+}
+.div{
+    font-size: 20px;
+    width: 100px;
+    height: 100px;
+    background: rgb(31, 207, 99);
+    transition: width 2s;
+} 
+.div:hover {
+    width: 300px; 
+}
+.respons{
+    column-count: 4;
+    column-rule: 4px solid blueviolet;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;  
+    text-align: justify;  
+}
+@media screen and (min-width:200px) and (max-width:800px){
+    p{
+     
+        background-color: black;
+        column-count: 4;
+    }
+}
+.roteat{
+     font-size: 20px;
+     transform-origin: 10px;
+     transform: perspective(10px);
+     transform: rotate(10deg); 
+}
+.roteat:hover{
+  transform: rotate3d(10deg,207deg,99deg);
+}
+    
+

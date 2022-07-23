@@ -1,0 +1,38 @@
+img{
+    filter: blur(3px);
+    border-radius: 8px;
+    border-image: round;
+    border-radius: 18px;
+}
+h1{
+    text-align: center;
+
+}
+h2{
+ opacity: 0.5;
+ text-align: center;
+ color: blue;
+}
+p{
+    text-align: center;
+    color: blueviolet;
+    letter-spacing: 8px;
+    word-spacing: 9px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.flex{
+    display: flex;
+    background-color: dodgerblue;
+    padding: auto;
+    border-style: double;
+
+}
+.flex-button
+{
+    display: flex;
+    font-size: 100px;
+    align-content: center;
+}
+*{
+    background-color: orchid;
+}

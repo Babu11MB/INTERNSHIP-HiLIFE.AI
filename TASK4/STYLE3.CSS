@@ -1,0 +1,20 @@
+.box{
+    display: inline-flex;
+    color: black;
+    border-width: 8px solid green;
+    
+    
+}
+.box-item{
+    display: inline-flex;
+    padding: 30px;
+    color: rgb(24, 228, 24);
+    border-radius: 8px;
+    background-color: rgb(250, 250, 250);
+    border-width: 8px;
+    box-sizing: border-box;
+    border-spacing: 10px;
+    background-color: white;
+    border-style: outset;
+    font-size: 80px;
+}

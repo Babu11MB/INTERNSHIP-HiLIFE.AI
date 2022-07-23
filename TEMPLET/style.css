@@ -1,0 +1,44 @@
+
+        .col-12-md {
+            background-color: rgb(128, 241, 14);
+            height: 250px;
+            font-size: 50px;
+            text-align: center;
+            padding-top: 30px;
+            color: aliceblue;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        p {
+            font-size: 15px;
+        }
+
+        div button {
+            size: 10px;
+        }
+
+        .h1 {
+            text-align: center;
+        }
+
+        .bold {
+            font-size: 40px;
+            text-align: center;
+            padding-left: 300px;
+        }
+
+        .card-title {
+            text-align: center;
+            color: rgb(7, 194, 194);
+        }
+
+.line{
+    font-size: 50px;
+    opacity: 0.7;
+
+}
+.page{
+    opacity: 0.6; 
+}
+
+   

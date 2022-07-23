@@ -1,0 +1,8 @@
+#one{
+    background: url(./image/bg1.jpg) right bottom no-repeat, url(./image/bg.jpg) left top repeat;
+    color: chartreuse;
+}
+#TWO{
+    background-image: -moz-radial-gradient(GREEN 10%,YELLOW 30%,RED 10%,BLACK 70%);
+    color: white;
+}
