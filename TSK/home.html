@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TSK</title>
+  <!-- CSS only -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+  <!-- JavaScript Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous">
+  </script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+  <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+  <div class="container-fluid">
+    <!-- The sidebar -->
+    <div class="sidebar">
+      <h1 style="color: white;"><img src="./images/logo1-removebg-preview.png" alt="LOGO" width="75px"
+          height="64px"><b>TSK</b></h1>
+      <a href="#home"><i class="bi bi-house-door">Home</a></i>
+      <a href="#desti"><i class="bi bi-car-front">Destination</a></i>
+      <a href="#location"><i class="bi bi-geo-alt">Location</a></i>
+      <a href="#avilable dates"><i class="bi bi-calendar-date-fill">Avilable dates</a></i>
+      <a href="#contact"><i class="bi bi-person-lines-fill">contact</a></i>
+    </div>
+    <!-- Page content -->
+    <button>search</button>
+    <input type="search" class="search" placeholder="Search">
+    <div class="content" id="desti">
+      <h1>
+        <P align="center"><b>DASHBOARD</b>
+      </h1>
+      </P>
+      <!--PROCESS CARD START-->
+      <div class="col-md-12">
+        <div class="row align-items-center mb-2 d-flex">
+          <div class="row row-cols-1 row-cols-md-9 lg-4">
+            <div class="card l-bg-cherry">
+              <div class="card-statistic-3 p-4">
+                <div class="card-icon card-icon-large"><i class="fas fa-shopping-cart"></i></div>
+                <div class="mb-4">
+                  <h5 class="card-title mb-0">New Orders</h5>
+                </div>
+                <div class="row align-items-center mb-2 d-flex">
+                  <div class="col-12">
+                    <h2 class="d-flex align-items-center mb-0">
+                      3,243
+                    </h2>
+                  </div>
+                  <div class="col-4 text-right">
+                    <span>12.5% <i class="fa fa-arrow-up"></i></span>
+                  </div>
+                </div>
+                <div class="progress mt-1 " data-height="8" style="height: 8px;">
+                  <div class="progress-bar l-bg-cyan" role="progressbar" data-width="25%" aria-valuenow="25"
+                    aria-valuemin="0" aria-valuemax="100" style="width: 25%;"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-xl-3 col-lg-6">
+            <div class="card l-bg-blue-dark">
+              <div class="card-statistic-3 p-4">
+                <div class="card-icon card-icon-large"><i class="fas fa-users"></i></div>
+                <div class="mb-4">
+                  <h5 class="card-title mb-0">Customers</h5>
+                </div>
+                <div class="row align-items-center mb-2 d-flex">
+                  <div class="col-8">
+                    <h2 class="d-flex align-items-center mb-0">
+                      15.07k
+                    </h2>
+                  </div>
+                  <div class="col-4 text-right">
+                    <span>9.23% <i class="fa fa-arrow-up"></i></span>
+                  </div>
+                </div>
+                <div class="progress mt-1 " data-height="8" style="height: 8px;">
+                  <div class="progress-bar l-bg-green" role="progressbar" data-width="25%" aria-valuenow="25"
+                    aria-valuemin="0" aria-valuemax="100" style="width: 25%;"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-xl-3 col-lg-6">
+            <div class="card l-bg-green-dark">
+              <div class="card-statistic-3 p-4">
+                <div class="card-icon card-icon-large"><i class="fas fa-ticket-alt"></i></div>
+                <div class="mb-4">
+                  <h5 class="card-title mb-0">Ticket Resolved</h5>
+                </div>
+                <div class="row align-items-center mb-2 d-flex">
+                  <div class="col-8">
+                    <h2 class="d-flex align-items-center mb-0">
+                      578
+                    </h2>
+                  </div>
+                  <div class="col-4 text-right">
+                    <span>10% <i class="fa fa-arrow-up"></i></span>
+                  </div>
+                </div>
+                <div class="progress mt-1 " data-height="8" style="height: 8px;">
+                  <div class="progress-bar l-bg-orange" role="progressbar" data-width="25%" aria-valuenow="25"
+                    aria-valuemin="0" aria-valuemax="100" style="width: 25%;"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-xl-3 col-lg-6">
+            <div class="card l-bg-pink-dark">
+              <div class="card-statistic-3 p-4">
+                <div class="card-icon card-icon-large"><i class="fas fa-users"></i></div>
+                <div class="mb-4">
+                  <h5 class="card-title mb-0">Avilable Bus</h5>
+                </div>
+                <div class="row align-items-center mb-2 d-flex">
+                  <div class="col-8">
+                    <h2 class="d-flex align-items-center mb-0">
+                      50 Bus
+                    </h2>
+                  </div>
+                  <div class="col-4 text-right">
+                    <span>12% <i class="fa fa-arrow-up"></i></span>
+                  </div>
+                </div>
+                <div class="progress mt-1 " data-height="8" style="height: 8px;">
+                  <div class="progress-bar l-bg-green" role="progressbar" data-width="25%" aria-valuenow="25"
+                    aria-valuemin="0" ari.a-valuemax="100" style="width: 25%;"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-xl-3 col-lg-6">
+            <div class="card l-bg-orange-dark">
+              <div class="card-statistic-3 p-4">
+                <div class="card-icon card-icon-large"><i class="fas fa-dollar-sign"></i></div>
+                <div class="mb-4">
+                  <h5 class="card-title mb-0">Revenue Today</h5>
+                </div>
+                <div class="row align-items-center mb-2 d-flex">
+                  <div class="col-8">
+                    <h2 class="d-flex align-items-center mb-0">
+                      RS.1LAKH
+                    </h2>
+                  </div>
+                  <div class="col-4 text-right">
+                    <span>2.5% <i class="fa fa-arrow-up"></i></span>
+                  </div>
+                </div>
+                <div class="progress mt-1 " data-height="8" style="height: 8px;">
+                  <div class="progress-bar l-bg-cyan" role="progressbar" data-width="25%" aria-valuenow="25"
+                    aria-valuemin="0" aria-valuemax="100" style="width: 25%;"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--PROCESS CARD END-->
+
+      <!--IMAGE CARD START-->
+      <h4 style="font-family:Arial, Helvetica, sans-serif ;">
+        <p align="center"><b>Avilable places</b>
+      </h4>
+      </p>
+      <div class="row row-cols-1 row-cols-md-4 g-4">
+        <div class="col">
+          <div class="card h-100">
+            <img src="./images/goa.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">GOA</h5>
+              <p class="card-text">RS.25,000</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="./images/ooty.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">OOTY</h5>
+              <p class="card-text">RS.5,000</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="./images/mumbai.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">MUMBAI</h5>
+              <p class="card-text">RS.17000</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="./images/ladakh.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">LADAKH</h5>
+              <p class="card-text">RS.50,000</p>
+            </div>
+          </div>
+        </div>
+      </div>
+       <!--IMAGE CARD END-->
+      <hr>
+    </div>
+    
+</body>
+
+</html>
